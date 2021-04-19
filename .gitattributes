@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.uasset !text !filter !merge !diff
+CloseCombatSwordsman/Content/CloseCombat/T_AlpinePatch001_D_alt_R.uasset filter=lfs diff=lfs merge=lfs -text
